@@ -1,6 +1,6 @@
 package io.eigr.spawn.internal.transport.client;
 
-import io.eigr.functions.protocol.Protocol;
+import io.spawn.Protocol;
 import io.eigr.spawn.api.exceptions.ActorCreationException;
 import io.eigr.spawn.api.exceptions.ActorInvocationException;
 import io.eigr.spawn.api.exceptions.ActorRegistrationException;

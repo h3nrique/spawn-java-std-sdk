@@ -1,6 +1,6 @@
 package io.eigr.spawn.internal.transport.client;
 
-import io.eigr.functions.protocol.Protocol;
+import io.spawn.Protocol;
 import io.eigr.spawn.api.TransportOpts;
 import io.eigr.spawn.api.exceptions.ActorCreationException;
 import io.eigr.spawn.api.exceptions.ActorInvocationException;
@@ -71,7 +71,7 @@ public final class OkHttpSpawnClient implements SpawnClient {
         Call call = client.newCall(request);
         try (Response response = call.execute()) {
             assert response.body() != null;
-            return io.eigr.functions.protocol.Protocol.SpawnResponse.parseFrom(
+            return io.spawn.Protocol.SpawnResponse.parseFrom(
                     Objects.requireNonNull(response.body()
                     ).bytes());
         } catch (Exception e) {

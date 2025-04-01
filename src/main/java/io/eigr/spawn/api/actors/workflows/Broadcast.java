@@ -2,7 +2,7 @@ package io.eigr.spawn.api.actors.workflows;
 
 import com.google.protobuf.Any;
 import com.google.protobuf.GeneratedMessage;
-import io.eigr.functions.protocol.Protocol;
+import io.spawn.Protocol;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;

@@ -1,6 +1,6 @@
 package io.eigr.spawn.internal;
 
-import io.eigr.functions.protocol.actors.ActorOuterClass;
+import io.spawn.actors.ActorOuterClass;
 import io.eigr.spawn.api.actors.BaseActor;
 import io.eigr.spawn.api.actors.StatefulActor;
 import io.eigr.spawn.api.actors.StatelessActor;

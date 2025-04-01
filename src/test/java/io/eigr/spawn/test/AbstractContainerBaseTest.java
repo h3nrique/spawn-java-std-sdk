@@ -20,7 +20,7 @@ public abstract class AbstractContainerBaseTest {
 
     private static final Logger log = LoggerFactory.getLogger(AbstractContainerBaseTest.class);
     private static GenericContainer<?> SPAWN_CONTAINER;
-    private static final String spawnProxyImage = "eigr/spawn-proxy:1.4.1-rc.1";
+    private static final String spawnProxyImage = "ghcr.io/eigr/spawn-proxy:2.0.0-RC9";
     private static final String userFunctionPort = "8091";
     protected static Spawn spawnSystem;
     protected static final String spawnSystemName = "spawn-system-test";

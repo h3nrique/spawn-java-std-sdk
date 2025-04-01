@@ -1,7 +1,7 @@
 package io.eigr.spawn.test;
 
 import domain.actors.Request;
-import io.eigr.functions.protocol.Protocol;
+import io.spawn.Protocol;
 import io.eigr.spawn.api.ActorIdentity;
 import io.eigr.spawn.api.ActorRef;
 import io.eigr.spawn.api.actors.workflows.Broadcast;

@@ -2,8 +2,8 @@ package io.eigr.spawn.api.actors.workflows;
 
 import com.google.protobuf.Any;
 import com.google.protobuf.GeneratedMessage;
-import io.eigr.functions.protocol.Protocol;
-import io.eigr.functions.protocol.actors.ActorOuterClass;
+import io.spawn.Protocol;
+import io.spawn.actors.ActorOuterClass;
 import io.eigr.spawn.api.InvocationOpts;
 import io.eigr.spawn.api.ActorRef;
 
