@@ -1,5 +1,6 @@
 target/
 .idea/
+.vscode/
 bin/
 pom.xml.tag
 pom.xml.releaseBackup
